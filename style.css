@@ -2,16 +2,25 @@
     h1 {
         background-color: purple;
     }
+    body {
+        background-color: purple;
+    }
 }
 
 @media (min-width: 768px) {
     h1 {
         background-color: orange;
     }
+    body {
+        background-color: orange;
+    }
 }
 
 @media (min-width: 1024px) {
     h1 {
+        background-color: black;
+    }
+    body {
         background-color: black;
     }
 }
